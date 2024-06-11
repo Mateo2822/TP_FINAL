@@ -1,0 +1,24 @@
+
+body{
+    height: 100vh;
+    /*background-color:#111215;*/
+}
+
+header{
+    /*background-color: black;*/
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+section{
+    display: flex;
+    justify-content: space-around;
+}
+
+div{
+    height: 250px;
+    width: 250px;
+    background-color: aqua;
+    border: 1px solid black;
+}
