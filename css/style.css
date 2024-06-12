@@ -118,8 +118,16 @@ body {
     }
 }
 
-
+body {
+    background-color: #111215; /* Color de fondo base (negro en este caso) */
+    background-image:
+      linear-gradient(rgba(255, 255, 255, 0.1) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(255, 255, 255, 0.1) 1px, transparent 1px);
+    background-size: 300px 300px; /* Tamaño de cada cuadrado en la cuadrícula */
+  }
+  
 section{
     display: flex;
     justify-content: space-around;
 }
+
