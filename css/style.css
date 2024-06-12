@@ -1,24 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
 
+}
+@font-face {
+    font-family: 'Krona One';
+    src: url('/fonts/KronaOne-Regular.ttf');
+    font-weight: bold;
+    font-style: bold;
+}
 body{
-    height: 100vh;
-    /*background-color:#111215;*/
+    background-color:#111215;
 }
 
-header{
-    /*background-color: black;*/
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+.back{
+    padding: 32px 0;
+    background-color: #000000;
+}
+
+.menu { 
+    position:absolute;
+    top: 0;
+    left:0;
+    right:0;
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    z-index: 1000;
+}
+.logo{
+    font-size: 24px;
+    font-weight: 800;
+    text-transform: uppercase;
+    font-family:'krona One', sans-serif;
+    background: linear-gradient(aliceblue, #000000);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.menu .navbar a{
+    position: relative;
+    float: left;
+    font-size: 18px;
+    padding: 20px;
+    color: #ffffff;
+    font-family:'krona One', sans-serif;
+    display: block;
 }
 
 section{
     display: flex;
     justify-content: space-around;
-}
-
-div{
-    height: 250px;
-    width: 250px;
-    background-color: aqua;
-    border: 1px solid black;
 }
