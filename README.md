@@ -5,6 +5,7 @@ Este proyecto es un ejemplo de cómo crear una navegación responsive con una fu
 ## Estructura del Proyecto
 
 El proyecto tiene la siguiente estructura de directorios:
+
 Proyecto/
 │
 ├── css/
@@ -23,10 +24,12 @@ Proyecto/
 │ └── index.html
 │
 └── README.md
+
 Fuentes Personalizadas
 Las fuentes personalizadas utilizadas en este proyecto son:
 
 Krona One: Utilizada para los títulos y el logo.
+
 Poppins: Utilizada para otros textos.
 Las fuentes deben estar en la carpeta fonts y referenciadas en el archivo CSS.
 
@@ -34,13 +37,18 @@ Imágenes
 Las imágenes utilizadas en este proyecto son:
 
 menu2.png: Icono del menú responsive.
+
 foto.png: Imagen del perfil.
+
 Las imágenes deben estar en la carpeta img y referenciadas en el archivo HTML.
 
+
 Navegación Responsive
+
 El menú de navegación se adapta a dispositivos móviles utilizando media queries. Cuando la pantalla tiene un ancho menor o igual a 761px, el menú se convierte en un icono que al ser clickeado despliega las opciones de navegación.
 
 Sección de Información
+
 La sección principal incluye un círculo estilizado que contiene una imagen y texto rotado, además de otra sección circular con información sobre la experiencia del desarrollador.
 
 Estilo General
